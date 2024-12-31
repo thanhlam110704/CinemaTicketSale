@@ -10,55 +10,48 @@ CinemaTicketSale is an ASP.Net-based movie ticket booking website designed to ma
 - Reporting: Generate reports on sales, inventory, and other metrics.
 
 ## Getting Started 
-### *Dev Environment*
-
-To get started with StarBoyPOS in **_Dev Environment_**, follow these steps:
 
 1. **Clone the Repository:**
-
+   
    ```bash
-   git clone https://github.com/devilkun1/ExpressJS_StarBoyPOS.git
+   git clone https://github.com/thanhlam110704/CinemaTicketSale.git
 
-2. **Install Dependencies:**
-
+2. **Install file backup database :**
+   
    ```bash
-   cd ExpressJS_StarBoyPOS
-   npm install
+   Download the file QLCinemaWeb.bak.
+   Restore the database using SQL Server Management Studio (SSMS).
 
-3. **Add .env file:**
 
+3. **Run Visual Studio and connect database on SSMS**
+   
    ```bash
-   SECRET_KEY=yJozZ6Ktk960mtt7l18eoOEUxEiRaOWw
-   SESSION_KEY=5mNLMNsfCHLvjobVmLKqcrMON8iB6X4G
-   MAIL_PASSWORD= [For privacy reasons, please use your own Mail Password]
-   DOMAIN=localhost:3000
-   DB_DEV_CONSTRING=mongodb+srv://admin:admin@lytuanan1911.jtassu8.mongodb.net/StarBoyPOS_dev?retryWrites=true&w=majority
+   Open the project in Visual Studio.
+   Connect to the database on SSMS.
 
-4. **Run the Application:**
-
+4. **Run the website:**
+   
    ```bash
-   npm start
+   Build and run the project in Visual Studio.
 
 5. **Access & Test:**
 
    ```bash
-   localhost:3000
+   Open the website in your browser at: https://localhost:44359/
 
 6. **Account provided:**
 
    ```bash
     Role: Admin
-    username: admin
-    password: admin
+    username: admin123
+    password: Thanh123
    
-    Role: Staff
+    Role: Customer
     username: kunyanan11
     password: 123123Aa@
    
 7. **_Note_**
-    - Requires a stable internet connection to connect to the database (Mongodb Atlas).
-    - Install Nodejs (Latest LTS).
+    - Requires a stable internet connection to connect to the database (SQL SSMS).
+   
   
-### *Production Environment*
 
-To get started with StarBoyPOS in **_Production Environment_**, visit the link: [starboypos](https://starboypos.up.railway.app)
