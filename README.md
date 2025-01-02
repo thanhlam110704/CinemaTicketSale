@@ -39,12 +39,12 @@ CinemaTicketSale is an ASP.Net-based movie ticket booking website designed to ma
 6. **Account provided:**
 
    - Role: Admin
-   - username: admin123
-   - password: Thanh123
+     username: admin123
+     password: Thanh123
    
    - Role: Customer
-   - username: kunyanan11
-   - password: 123123Aa@
+     username: kunyanan11
+     password: 123123Aa@
    
 7. **Note**
     - Requires a stable internet connection to connect to the database (SQL SSMS).
