@@ -22,7 +22,6 @@ CinemaTicketSale is an ASP.Net-based movie ticket booking website designed to ma
    - Restore the database using SQL Server Management Studio (SSMS).
 
 3. **Run Visual Studio and connect database on SSMS**
-   
    - Open the project in Visual Studio.
    - Connect to the database on SSMS.
    
@@ -30,7 +29,6 @@ CinemaTicketSale is an ASP.Net-based movie ticket booking website designed to ma
 4. **Run the website:**
    
    - Build and run the project in Visual Studio.
-   
 
 5. **Access & Test:**
 
@@ -38,15 +36,11 @@ CinemaTicketSale is an ASP.Net-based movie ticket booking website designed to ma
 
 6. **Account provided:**
 
-   - Role: Admin
-     username: admin123
-     password: Thanh123
-   
-   - Role: Customer
-     username: kunyanan11
-     password: 123123Aa@
+   - Role: Admin (username: admin123, password: Thanh123)
+   - Role: Customer (username: kunyanan11, password: 123123Aa@)
    
 7. **Note**
+
     - Requires a stable internet connection to connect to the database (SQL SSMS).
    
   
