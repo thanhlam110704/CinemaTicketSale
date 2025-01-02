@@ -17,38 +17,34 @@ CinemaTicketSale is an ASP.Net-based movie ticket booking website designed to ma
    git clone https://github.com/thanhlam110704/CinemaTicketSale.git
 
 2. **Install file backup database :**
-   
-   ```bash
-   Download the file QLCinemaWeb.bak.
-   Restore the database using SQL Server Management Studio (SSMS).
 
+   - Download the file QLCinemaWeb.bak.
+   - Restore the database using SQL Server Management Studio (SSMS).
 
 3. **Run Visual Studio and connect database on SSMS**
    
-   ```bash
-   Open the project in Visual Studio.
-   Connect to the database on SSMS.
+   - Open the project in Visual Studio.
+   - Connect to the database on SSMS.
+   
 
 4. **Run the website:**
    
-   ```bash
-   Build and run the project in Visual Studio.
+   - Build and run the project in Visual Studio.
+   
 
 5. **Access & Test:**
 
-   ```bash
-   Open the website in your browser at: https://localhost:44359/
+   - Open the website in your browser at: https://localhost:44359/
 
 6. **Account provided:**
 
-   ```bash
-    Role: Admin
-    username: admin123
-    password: Thanh123
+   - Role: Admin
+   - username: admin123
+   - password: Thanh123
    
-    Role: Customer
-    username: kunyanan11
-    password: 123123Aa@
+   - Role: Customer
+   - username: kunyanan11
+   - password: 123123Aa@
    
 7. **_Note_**
     - Requires a stable internet connection to connect to the database (SQL SSMS).
